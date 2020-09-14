@@ -1,0 +1,5 @@
+rootProject.name='Modularizacao'
+include ':app'
+include ':domain'
+include ':data'
+include ':about_feature'

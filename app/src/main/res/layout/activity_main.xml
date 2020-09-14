@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Produtos" />
+
+    <Button
+        android:id="@+id/btDownloadAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baixar o módulo Sobre" />
+
+    <Button
+        android:id="@+id/btOpenNewsModule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sobre"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btDeleteNewsModule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apagar módulo Sobre"
+        android:visibility="gone" />
+</LinearLayout>
